@@ -1,234 +1,366 @@
-﻿<html>
+<html>
 <head>
-<title>缴费单2025</title>
+<title>缴费单2026</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="css/jfd.css"/>
+<style>
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr{    
+	margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+	}
+
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <link rel="shortcut icon" href="favicon.ico" />
 </head>
 
 <body>
-<center><img src="https://cdn.jsdelivr.net/gh/caorun728/caorun.gq@gh-pages/assets/images/jiaofeidan.PNG" ><br><h1><strong>2025</strong></h1></center>
+<center><img src="https://cdn.jsdelivr.net/gh/caorun728/caorun.gq@gh-pages/assets/images/jiaofeidan.PNG" ><br><h1><strong>2026</strong></h1></center>
 
 <p><h3>注意事项：</h3>
-非公开,请勿转载、截图或作为其他用途！
+仅供个人参考<br>
+请勿转载或作为依据公开！
 </p>
 <p>
-<font color="white">气表号：01917655 </font><br>
-<font color="white">电表号：0476418196</font><br>
+<font color="white">氣錶號：01917655 </font><br>
+<font color="white">電錶號：0476418196</font><br>
 <!--a href="" target="_blank">数字电视</a> <font color="white">CA智能卡号：8280203591440726、电视号：3248629611</font-->
 </p>
 <h2>缴费详单</h2>
 <p>
-<em>包含个人通信、网络、软件、影音会员、物业、水电燃费等生活费用，以及重要家电或采购</em>。
+包含个人通讯信息、网络会员、物业、水电燃费等。<br>会员会用颜色标识，或<em>斜体字</em>。
 <br>
-<font color="#ff0000"><strong>全年支出</strong></font>：¥15,507.4（1-11月） | $21.95<strong></strong>(已统计到5月份结束支出)+$
+<font color="#ff0000"><strong>全年支出</strong></font>：¥ <strong></strong>(已统计到11月份结束支出)+$
 <br>
 
 
 </p>
-<h3>2025-12</h3>
-12月: ¥2540.35，$23.6
+<!--h3>2026-12</h3>
+12月2日: 
 <ul>
-	<li>04日，电费 19（20）。阿里云预存充值 10</li>
-	<li>05日，话费 96（100）。物业水费垃圾费 176.35</li>
-	<li>06日，<strong>物业费</strong>（预存1年送1月） 1913.12</li>
-	<li>07日，麦早餐卡（双月） 19.99</li>
-	<li>08日，话费 49.5（50）</li>
-	<li>09日，<strong>QQ音乐绿钻年费</strong> 138（1个月爱奇艺，100天赠送需每个月领取20天。）、升级超会半年 12</li>
-	<li>09日，域名续费 $23.6（大约折人民币160）</li>
-	<li>11日，<strong><font color="#006600">surge ios</font></strong> 订阅1年 106.39</li>
-	<li>13日，电费 19.48（20）</li>
-	<li>14日，燃气 49.5（50，充值）</li>
-	<li>19日，电费 19.98（20）</li>
-	<li>23日，电费 18.99（20）</li>
-	<li>29日，青桔单车季卡 34</li>
+	<li></li>
 </ul>
-<h3>2025-11</h3>
-11月：1,923.71
+<h3>2026-11</h3>
+11月：
 <ul>
-	<li>04日 升级爱奇艺3个月 19.9</li>
-	<li>05日 话费 98（100）</li>
-	<li>06日 <font color="green"><strong>医保</strong></font> 1052（首次补充医疗）</li>
-	<li>06日 话费97（100）</li>
-	<li>07日 电费 19.5（20）</li>
-	<li>12日 服务器1年 475.8</li>
-	<li>17日 电费 19.48（20）</li>
-	<li>24日 服务费 72.05</li>
-	<li>26日 电费 19.98（20）</li>
-	<li>31日 燃气（充值）50</li>
+	<li></li>
 </ul>
-<h3>2025-10</h3>
-10月：379.21
+<h3>2026-10</h3>
+10月：
 <ul>
-	<li>05日 话费 96（100）</li>
-	<li>06日 电费 19（20）</li>
-	<li>07日 朴朴黄金会员年卡 68.9</li>
-	<li>07日 话费 97（100）</li>
-	<li>09日 青桔季卡 38.93</li>
-	<li>14日 电费 19.9（20）</li>
-	<li>17日 域名续费 ＄6.5 </li>
-	<li><del>21日 医保 425（交错了，应缴高档，已退重新缴纳）</del></li>
-	<li>22日 电费 19.99（21）</li>
-	<li>31日 电费 19.49（20）</li>
-
+	<li></li>
 </ul>
-<h3>2025-09</h3>
-9月：771.84
+<h3>2026-09</h3>
+9月：
 <ul>
-	<li>01日 电费 28.49（30）</li>
-	<li>06日 话费 98（100）</li>
-	<li>07日 电费 30</li>
-	<li>11日 话费 49.5（50）</li>
-	<li>11日 淘宝 88VIP 88</li>
-	<li>13日 电费 19.5（20）</li>
-	<li>16日 电费 19.95（20）</li>
-	<li>19日 燃气（充值） 50</li>
-	<li>19日 麦当劳品鉴会 139.9</li>
-	<li>20日 话费（父） 49.5（50）</li>
-	<li>27日 哔哩哔哩超级大会员1年送1个月 138（萌节）</li>
-	<li>28日 iCloud 50GB 续费一年 61（27年1月份到期）</li>
+	<li></li>
 	
 </ul>
-<h3>2025-08</h3>
-8月：3,110.65
+<h3>2026-08</h3>
+8月：
 <ul>
-	<li>01日 车险 2826.22</li>
-	<li>02日 电费 19.49（20）</li>
-	<li>06日 续域 $15.79</li>
-	<li>07日 话费 196（200）</li>
-	<li>10日 电费 19.46（20）</li>
-	<li>11日 会员（彩云天气季度） 18.8（余额，退款）</li>
-	<li>15日 电费 20</li>
-	<li>23日 电费 29.48（30）</li>
+	<li></li>
 </ul>
-<h3>2025-07</h3>
-7月：3,112.97
+<h3>2026-07</h3>
+7月：
 <ul>
-	<li>05日 话费 98（100）</li>
-	<li>05日 话费 49.5（50，家）</li>
-	<li>06日 话费 98（100）</li>
-	<li>06日 电费 48.99（50）</li>
-	<li>07日 物业-水费、垃圾费176</li>
-	<li>09日 话费 49.5（50）</li>
-	<li>13日 电费 19.98（20）</li>
-	<li>18日 燃气 50（充）</li>
-	<li>18日 电费 29.39（30）</li>
-	<li>22日 电费 29.91（30）</li>
-	<li>25日 电费 29.5（30）</li>
-	<li>31日 话费 49.7（50）</li>
-	<li>31日 话费 29.5（50，家人）</li>
-	<li>31日 车位费 2400</li>
+	<li></li>
 
 </ul>
-<h3>2025-06</h3>
-6月:437.27
+<h3>2026-06</h3>
+6月:
 <ul>
-	<li>03日 淘宝秒杀 青桔单车季卡 35</li>
-	<li>05日 话费 29.5（30）</li>
-	<li>06日 话费 96（100）</li>
-	<li>06日 话费家 49（50）+49.5（50）</li>
-	<li>09日 <strong>植物园</strong>门票 10</li>
-	<li>13日 电费 48.99（50）</li>
-	<li>20日 电费 29.78（30）</li>
-	<li>23日 工银年费 10</li>
-	<li>24日 燃气（充值） 50</li>
-	<li>26日 开通电信业务 10-10（腾讯视频会员）</li>
-	<li>26日 话费 29.5（30）</li>
+	<li></li>
 </ul>
-<h3>2025-05</h3>
-5月:¥1，598.13
+<h3>2026-05</h3>
+5月:
 <ul>
-	<li>02日 话费 98（100）</li>
-	<li>03日 DLER 90（满）</li>
-	<li>04日 续域 19.55+19.55</li>
-	<li>05日 话费 29.5（30）</li>
-	<li>13日 电费 19.99（20.5）</li>
-	<li>16日 <strong>电风扇</strong> 109.7-10+12三年延保</li>
-	<li>20日 <strong>厨师机</strong> 912.99-8.9（106四年延保只换不修）</li>
-	<li>26日 电费 49.75（50.5）</li>
-	<li>27日 iPhone电池 139</li>
-	<li>29日 话费 29.5（30）</li>
+	<li></li>
 </ul>
-<h3>2025-04</h3>
-4月：¥602.81 $10.11
+<h3>2026-04</h3>
+4月：
 <ul>
-	<li>02日 话费 97（100）</li>
-	<li>02日 熊猫吃短信年订阅 9</li>
-	<li>04日 域名 39</li>
-	<li>05日 话费 96（100）</li>
-	<li>06日 域名 12.33</li>
-	<li>07日 地铁 10</li>
-	<li>10日 小米云空间15个月 39</li>
-	<li>11日 电费 49.5（50）</li>
-	<li>11日 话费 49.5（50，家人）</li>
-	<li>12日 话费 49.5（50，家人）</li>
-	<li>13日 燃气 14（充）</li>
-	<li>23日 电费 49.98（50.5）</li>
-	<li>23日 续域 $10.11</li>
-	<li>28日 京东超市卡 88（90）</li>
-
+	<li></li>
 </ul>
-<h3>2025-03</h3>
-3月：876.83、$11.84
+<h3>2026-03</h3>
+3月：
 <ul>
-	<li>01日 话费 29.5（30）</li>
-	<li>05日 Microsoft365 订阅1年 179</li>
-	<li>06日 话费 97.89（100）</li>
-	<li>06日 域名续费 $11.84</li>
-	<li>07日 汉王扫描 9.9（1年团）</li>
-	<li>08日 电费 49.5（50.5）</li>
-	<li>10日 网络DLER 149.97</li>
-	<li>10日 磨粉机 145</li>
-	<li>13日 域名续费 37</li>
-	<li>20日 燃气费 50（充）</li>
-	<li>22日 域名注册 30+30</li>
-	<li>24日 电费 48.98（50）</li>
-	<li>31日 电费 20（20.5）</li>
+	<li></li>
 	
 </ul>
-<h3>2025-02</h3>
-2月：1184.32
+<h3>2026-02</h3>
+2月：
 <ul>
-	<li>05日 话费 97（100）</li>
-	<li>07日 电费 99.98（100）</li>
-	<li>10日 话费 97.8（100）</li>
-	<li>12日 DLER 99.95</li>
-	<li>15日 青桔季卡 37.5</li>
-	<li>15日 物业-水费、垃圾费 186</li>
-	<li>17日 电费 49.97（51）</li>
-	<li>18日 Microsoft 365 订阅1年 189</li>
-	<li>24日 燃气（充值） 100</li>
-	<li>25日 电费 44.98（50.5）</li>
-	<li>25日 话费 95.96（100）</li>
-	<li>26日 话费 48.96（50，家人）</li>
-    <li>26日 域名注册 28.27</li>
-    <li>28日 1号店会员 8.95</li>
-</ul>
-<h3>2025-01</h3>
-1月：1509.66
+	<li></li>
+	
+</ul-->
+<h3>2026-01</h3>
+1月：
 <ul>
-	<li>01日 话费 97（100）</li>
-	<li>04日 电费 19.48（20）</li>
-	<li>05日 话费 96（100）</li>
-	<li>05日 <u>花云</u> 134.4（1年）</li>
-	<li>05日 <strong>体检</strong> 120</li>
-	<li>09日 <u>肯悦咖啡</u> 季卡 18</li>
-	<li>09日 <font color="green"><strong>花洒整套更换</strong></font> 550（较为满意，效果显著）</li>
-	<li>10日 电费 19.97（20.5）</li>
-	<li>15日 电费 19.98（20） </li>
-	<li>16日 燃气 50</li>
-	<li>20日 电费 19.98（20）</li>
-	<li>20日 iTunes 100（赠10）</li>
-	<li>20日 爱奇艺升级 18</li>
-	<li>25日 话费 96.5（100）</li>
-	<li>26日 电费 50</li>
-	<li>28日 电费 99.8（100.5）</li>
+	<li>01日，电费 19.49（20.5）</li>
 </ul>
 
 
 <h2>往年记录</h2>
 <ul>
+  <li><a href="html/jiaofeidan/2025.html" target="_blank" title="點擊查詢">2025年查询</a></li>
 	<li><a href="html/jiaofeidan/2024.html" target="_blank" title="點擊查詢">2024年查询</a></li>
 	<li><a href="html/jiaofeidan/2023.html" target="_blank" title="點擊查询">2023年查询</a></li>
 	<li><a href="html/jiaofeidan/2022.html" target="_blank" title="點擊查询">2022年查询</a></li>
@@ -244,6 +376,6 @@
 	
 </ul>
 <hr>
-<center>[Copyright©2014-2025]<br>明细</center>
+<center>[Copyright©2014-2026]<br>明细</center>
 </body>
 </html>
