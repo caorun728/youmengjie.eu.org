@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>缴费单 2026｜1月—9月</title>
+<style>
+:root{--bg:#f5f7fa;--card:#fff;--text:#263238;--muted:#6b7280;--line:#e5e7eb;--accent:#2563eb;--accent-soft:#eff6ff;--total:#111827}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",Arial,sans-serif;line-height:1.6}
+.container{max-width:1100px;margin:0 auto;padding:24px 16px 48px}
+.hero{background:linear-gradient(135deg,#1e3a8a,#2563eb);color:#fff;border-radius:18px;padding:28px 24px;margin-bottom:20px;box-shadow:0 10px 30px rgba(37,99,235,.18)}
+.hero h1{margin:0 0 6px;font-size:30px}
+.hero p{margin:0;opacity:.9}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 3px 12px rgba(0,0,0,.04)}
+.card .label{font-size:13px;color:var(--muted)}
+.card .value{font-size:25px;font-weight:700;margin-top:4px;color:var(--total)}
+.month{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:18px 0;overflow:hidden;box-shadow:0 3px 12px rgba(0,0,0,.04)}
+.month-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 18px;background:var(--accent-soft);border-bottom:1px solid var(--line)}
+.month-head h2{margin:0;font-size:20px;color:#1e3a8a}
+.month-total{font-weight:700;color:var(--total);white-space:nowrap}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:650px}
+th,td{padding:10px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:13px;color:var(--muted);background:#fafafa}
+td.amount{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
+tr:last-child td{border-bottom:0}
+.note{font-size:13px;color:var(--muted);margin:20px 2px}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:30px}
+@media(max-width:700px){.summary{grid-template-columns:1fr}.hero h1{font-size:25px}.container{padding:14px 10px 32px}.month-head{align-items:flex-start;flex-direction:column}.month-total{white-space:normal}}
+</style>
+</head>
+<body>
+<div class="container">
+<section class="hero">
+  <h1>2026 年缴费详单</h1>
+  <p>2026 年 1 月—9 月支出明细 · 数据整理自 jiaofeidan.html</p>
+</section>
+
+<section class="summary">
+  <div class="card"><div class="label">1—9 月人民币记录合计</div><div class="value">¥21,836.39</div></div>
+  <div class="card"><div class="label">另计美元</div><div class="value">$39.62</div></div>
+  <div class="card"><div class="label">统计范围</div><div class="value">2026/01—09</div></div>
+</section>
+
+<p class="note">说明：月合计沿用原 jiaofeidan.html 中记录的数值；括号内通常为充值/标称金额，不作为实际支出重复计算。美元项目单独保留，不折算成人民币。个别月份的月合计与逐项明细简单相加存在差异，因此这里不擅自修改原账目。</p>
+
+<div class="month">
+<div class="month-head"><h2>2026-01 · 1月</h2><div class="month-total">记录合计：¥1,605.24</div></div>
+<div class="table-wrap"><table><thead><tr><th>日期</th><th>项目</th><th>金额</th><th>备注</th></tr></thead><tbody>
+<tr><td>01日</td><td>电费</td><td class="amount">¥19.49</td><td>括号标注 ¥20.5</td></tr>
+<tr><td>04日</td><td>话费（家）</td><td class="amount">¥49.50</td><td>括号标注 ¥50</td></tr>
+<tr><td>05日</td><td>话费</td><td class="amount">¥97.00</td><td>括号标注 ¥100</td></tr>
+<tr><tr><td>05日</td><td>话费（家）</td><td class="amount">¥49.60</td><td>括号标注 ¥50</td></tr>
+<tr><tr><td>07日</td><td>域名</td><td class="amount">¥36.10</td><td></td></tr>
+<tr><tr><td>08日</td><td>KEEP 月卡</td><td class="amount">¥11.01</td><td></td></tr>
+<tr><tr><td>10日</td><td>话费</td><td class="amount">¥49.50</td><td>括号标注 ¥50</td></tr>
+<tr><tr><td>12日</td><td>电费</td><td class="amount">¥30.00</td><td></td></tr>
+<tr><tr><td>17日</td><td>电费</td><td class="amount">¥19.99</td><td>括号标注 ¥21</td></tr>
+<tr><tr><td>25日</td><td>麦当劳早餐双月卡</td><td class="amount">¥19.80</td><td></td></tr>
+<tr><tr><td>26日</td><td>公交卡冲次（错月）</td><td class="amount">¥5.00</td><td></td></tr>
+<tr><tr><td>26日</td><td>必胜客年卡</td><td class="amount">¥45.19</td><td></td></tr>
+<tr><tr><td>28日</td><td>电视机</td><td class="amount">¥1,154.07</td><td></td></tr>
+<tr><tr><td>29日</td><td>电费</td><td class="amount">¥18.99</td><td>括号标注 ¥20</td></tr>
+</tbody></table></div></div>
+
+<div class="month">
+<div class="month-head"><h2>2026-02 · 2月</h2><div class="month-total">记录合计：¥12,325.38</div></div>
+<div class="table-wrap"><table><thead><tr><th>日期</th><th>项目</th><th>金额</th><th>备注</th></tr></thead><tbody>
+<tr><td>03日</td><td>话费</td><td class="amount">¥48.00</td><td>括号标注 ¥50</td></tr>
+<tr><td>03日</td><td>机场大巴</td><td class="amount">¥60.00</td><td></td></tr>
+<tr><td>06日</td><td>电费</td><td class="amount">¥29.45</td><td>括号标注 ¥30</td></tr>
+<tr><td>12日</td><td>iPhone 17 ProMax 512GB 星光橙</td><td class="amount">¥11,999.00</td><td>太古里直营店；AppleCare+ 已退</td></tr>
+<tr><td>15日</td><td>电费</td><td class="amount">¥29.45</td><td>括号标注 ¥30</td></tr>
+<tr><td>15日</td><td>iTunes 充值</td><td class="amount">¥100.00</td><td>括号标注 ¥110</td></tr>
+<tr><td>20日</td><td>电费</td><td class="amount">¥29.99</td><td>括号标注 ¥30</td></tr>
+<tr><td>24日</td><td>电费</td><td class="amount">¥29.49</td><td>括号标注 ¥30</td></tr>
+</tbody></table></div></div>
+
+<div class="month">
+<div class="month-head"><h2>2026-03 · 3月</h2><div class="month-total">记录合计：¥1,427.42</div></div>
+<div class="table-wrap"><table><thead><tr><th>日期</th><th>项目</th><th>金额</th><th>备注</th></tr></thead><tbody>
+<tr><td>03日</td><td>哈啰单车月卡</td><td class="amount">¥17.99</td><td></td></tr>
+<tr><td>04日</td><td>域名</td><td class="amount">¥38.00</td><td></td></tr>
+<tr><td>05日</td><td>话费</td><td class="amount">¥96.00</td><td>括号标注 ¥100</td></tr>
+<tr><td>06日</td><td>电费</td><td class="amount">¥29.50</td><td>括号标注 ¥30</td></tr>
+<tr><td>07日</td><td>话费</td><td class="amount">¥96.00</td><td>括号标注 ¥100</td></tr>
+<tr><td>13日</td><td>烤箱（P40）</td><td class="amount">¥739.80</td><td></td></tr>
+<tr><td>23日</td><td>补充服务</td><td class="amount">¥101.40</td><td>原记录：补四年只换不修</td></tr>
+<tr><td>17日</td><td>电费</td><td class="amount">¥19.00</td><td>括号标注 ¥20</td></tr>
+<tr><td>17日</td><td>域名</td><td class="amount">¥42.25</td><td></td></tr>
+<tr><td>17日</td><td>燃气</td><td class="amount">¥130.80</td><td>充 ¥200，余 ¥90</td></tr>
+<tr><td>28日</td><td>电费</td><td class="amount">¥29.50</td><td>括号标注 ¥30</td></tr>
+<tr><td>29日</td><td>KEEP 1个月</td><td class="amount">¥12.98</td><td></td></tr>
+<tr><td>30日</td><td>公交</td><td class="amount">¥5.00</td><td>10次</td></tr>
+</tbody></table></div></div>
+
+<div class="month">
+<div class="month-head"><h2>2026-04 · 4月</h2><div class="month-total">记录合计：¥1,380.30 · $11.86</div></div>
+<div class="table-wrap"><table><thead><tr><th>日期</th><th>项目</th><th>金额</th><th>备注</th></tr></thead><tbody>
+<tr><td>02日</td><td>Cloudflare .net 续费</td><td class="amount">$11.86</td><td></td></tr>
+<tr><td>05日</td><td>话费</td><td class="amount">¥96.90</td><td>括号标注 ¥100</td></tr>
+<tr><td>06日</td><td>话费</td><td class="amount">¥46.00</td><td>括号标注 ¥50</td></tr>
+<tr><td>06日</td><td>彩云天气</td><td class="amount">¥18.80</td><td>季</td></tr>
+<tr><td>08日</td><td>电费</td><td class="amount">¥29.50</td><td>括号标注 ¥30</td></tr>
+<tr><td>09日</td><td>BITZNET</td><td class="amount">¥206.99</td><td></td></tr>
+<tr><td>15日</td><td>小米路由器 BE6500 Pro</td><td class="amount">¥470.58</td><td>京东</td></tr>
+<tr><td>16日</td><td>绿联千兆交换机</td><td class="amount">¥85.90</td><td>京东秒送</td></tr>
+<tr><td>17日</td><td>小米路由器 BE3600</td><td class="amount">¥129.00</td><td>拼多多三人团</td></tr>
+<tr><td>18日</td><td>小米路由器 BE3600</td><td class="amount">¥139.00</td><td>京东</td></tr>
+<tr><td>18日</td><td>电费</td><td class="amount">¥29.00</td><td>括号标注 ¥30</td></tr>
+<tr><td>22日</td><td>麦当劳早餐卡双月</td><td class="amount">¥19.80</td><td></td></tr>
+<tr><td>27日</td><td>小象超市会员年卡</td><td class="amount">¥49.00</td><td></td></tr>
+<tr><td>27日</td><td>麦当劳锅铲</td><td class="amount">¥34.90</td><td></td></tr>
+<tr><td>30日</td><td>泡菜坛子（玻璃10斤水）</td><td class="amount">¥25.00</td><td></td></tr>
+</tbody></table></div></div>
+
+<div class="month">
+<div class="month-head"><h2>2026-05 · 5月</h2><div class="month-total">记录合计：¥431.72</div></div>
+<div class="table-wrap"><table><thead><tr><th>日期</th><th>项目</th><th>金额</th><th>备注</th></tr></thead><tbody>
+<tr><td>01日</td><td>电费</td><td class="amount">¥28.50</td><td>括号标注 ¥30</td></tr>
+<tr><td>02日</td><td>泡菜坛子（土陶，12斤水）</td><td class="amount">¥30.00</td><td></td></tr>
+<tr><td>03日</td><td>话费</td><td class="amount">¥46.00</td><td>括号标注 ¥50</td></tr>
+<tr><td>05日</td><td>话费</td><td class="amount">¥46.00</td><td>括号标注 ¥50</td></tr>
+<tr><td>05日</td><td>话费</td><td class="amount">¥48.99</td><td>括号标注 ¥50</td></tr>
+<tr><td>12日</td><td>Google AI</td><td class="amount">¥19.46</td><td>1年</td></tr>
+<tr><td>12日</td><td>电费</td><td class="amount">¥19.87</td><td>括号标注 ¥20</td></tr>
+<tr><td>13日</td><td>燃气充值</td><td class="amount">¥100.00</td><td></td></tr>
+<tr><td>24日</td><td>KFC 大神卡</td><td class="amount">¥52.90</td><td></td></tr>
+<tr><td>27日</td><td>电费</td><td class="amount">¥30.00</td><td></td></tr>
+<tr><td>27日</td><td>燃气费</td><td class="amount">¥10.00</td><td></td></tr>
+</tbody></table></div></div>
+
+<div class="month">
+<div class="month-head"><h2>2026-06 · 6月</h2><div class="month-total">记录合计：¥631.85</div></div>
+<div class="table-wrap"><table><thead><tr><th>日期</th><th>项目</th><th>金额</th><th>备注</th></tr></thead><tbody>
+<tr><td>03日</td><td>话费</td><td class="amount">¥46.00</td><td>括号标注 ¥50</td></tr>
+<tr><td>04日</td><td>McD 早餐卡双月卡</td><td class="amount">¥15.89</td><td>已退</td></tr>
+<tr><td>04日</td><td>公交卡充次</td><td class="amount">¥4.10</td><td></td></tr>
+<tr><td>04日</td><td>阿里小号月租</td><td class="amount">¥5.00</td><td></td></tr>
+<tr><td>05日</td><td>88VIP</td><td class="amount">¥88.00</td><td></td></tr>
+<tr><td>05日</td><td>电费</td><td class="amount">¥19.50</td><td>括号标注 ¥21</td></tr>
+<tr><td>05日</td><td>话费</td><td class="amount">¥98.00</td><td>括号标注 ¥100</td></tr>
+<tr><td>07日</td><td>工行 U 盾工本费</td><td class="amount">¥11.37</td><td></td></tr>
+<tr><td>08日</td><td>朴朴年卡</td><td class="amount">¥59.00</td><td>有效期至2027年10月7日</td></tr>
+<tr><td>10日</td><td>QQ音乐升级</td><td class="amount">¥9.00</td><td>季</td></tr>
+<tr><td>18日</td><td>彩云天气 1年 SVIP</td><td class="amount">¥88.00</td><td></td></tr>
+<tr><td>19日</td><td>夸克</td><td class="amount">¥138.00</td><td>2年送30天 SVIP</td></tr>
+<tr><td>24日</td><td>电费</td><td class="amount">¥19.99</td><td>括号标注 ¥20</td></tr>
+<tr><td>29日</td><td>电费</td><td class="amount">¥20.00</td><td>括号标注 ¥21</td></tr>
+<tr><td>30日</td><td>阿里云充值</td><td class="amount">¥10.00</td><td></td></tr>
+</tbody></table></div></div>
+
+<div class="month">
+<div class="month-head"><h2>2026-07 · 7月</h2><div class="month-total">记录合计：¥2,686.98</div></div>
+<div class="table-wrap"><table><thead><tr><th>日期</th><th>项目</th><th>金额</th><th>备注</th></tr></thead><tbody>
+<tr><td>03日</td><td>话费</td><td class="amount">¥46.00</td><td>括号标注 ¥50</td></tr>
+<tr><td>04日</td><td>话费</td><td class="amount">¥96.00</td><td>括号标注 ¥100</td></tr>
+<tr><td>07日</td><td>电费</td><td class="amount">¥20.00</td><td></td></tr>
+<tr><td>08日</td><td>公交</td><td class="amount">¥5.00</td><td>10次</td></tr>
+<tr><td>11日</td><td>电费</td><td class="amount">¥20.00</td><td></td></tr>
+<tr><td>11日</td><td>燃气充值</td><td class="amount">¥20.00</td><td></td></tr>
+<tr><td>16日</td><td>电费</td><td class="amount">¥19.99</td><td>括号标注 ¥20.5</td></tr>
+<tr><td>18日</td><td>电费</td><td class="amount">¥20.00</td><td></td></tr>
+<tr><td>22日</td><td>电费</td><td class="amount">¥19.99</td><td>括号标注 ¥20.5</td></tr>
+<tr><td>22日</td><td>其他支出</td><td class="amount">¥10.00</td><td>原记录同日另记“10”</td></tr>
+<tr><td>26日</td><td>电费</td><td class="amount">¥20.00</td><td></td></tr>
+<tr><td>26日</td><td>停车费</td><td class="amount">¥2,400.00</td><td></td></tr>
+</tbody></table></div></div>
+
+<div class="month">
+<div class="month-head"><h2>2026-08 · 8月</h2><div class="month-total">记录合计：¥512.15 · $27.76</div></div>
+<div class="table-wrap"><table><thead><tr><th>日期</th><th>项目</th><th>金额</th><th>备注</th></tr></thead><tbody>
+<tr><td>01日</td><td>熊猫基地门票</td><td class="amount">¥55.00</td><td></td></tr>
+<tr><td>05日</td><td>电费</td><td class="amount">¥19.99</td><td>括号标注 ¥21</td></tr>
+<tr><td>05日</td><td>麦金卡年卡</td><td class="amount">¥113.00</td><td></td></tr>
+<tr><td>05日</td><td>公交卡</td><td class="amount">¥3.00</td><td></td></tr>
+<tr><td>05日</td><td>小号</td><td class="amount">¥5.00</td><td></td></tr>
+<tr><td>06日</td><td>话费</td><td class="amount">¥46.00</td><td>括号标注 ¥50</td></tr>
+<tr><td>06日</td><td>域名</td><td class="amount">$16.56</td><td></td></tr>
+<tr><td>12日</td><td>电费</td><td class="amount">¥19.49</td><td>括号标注 ¥20.5</td></tr>
+<tr><td>12日</td><td>公交卡</td><td class="amount">¥3.00</td><td></td></tr>
+<tr><td>12日</td><td>QQ音乐升级</td><td class="amount">¥15.00</td><td>5个月</td></tr>
+<tr><td>16日</td><td>电费</td><td class="amount">¥19.99</td><td>括号标注 ¥20</td></tr>
+<tr><td>16日</td><td>域名</td><td class="amount">¥158.69</td><td></td></tr>
+<tr><td>18日</td><td>燃气充值</td><td class="amount">¥7.00</td><td></td></tr>
+<tr><td>22日</td><td>域名</td><td class="amount">$11.20</td><td>.org</td></tr>
+<tr><td>24日</td><td>电费</td><td class="amount">¥5.00</td><td></td></tr>
+<tr><td>25日</td><td>域名</td><td class="amount">¥6.00</td><td></td></tr>
+<tr><td>26日</td><td>良心云</td><td class="amount">¥6.00</td><td>季</td></tr>
+<tr><td>29日</td><td>电费</td><td class="amount">¥19.99</td><td>括号标注 ¥21</td></tr>
+<tr><td>31日</td><td>燃气充值</td><td class="amount">¥10.00</td><td></td></tr>
+</tbody></table></div></div>
+
+<div class="month">
+<div class="month-head"><h2>2026-09 · 9月</h2><div class="month-total">记录合计：¥835.35</div></div>
+<div class="table-wrap"><table><thead><tr><th>日期</th><th>项目</th><th>金额</th><th>备注</th></tr></thead><tbody>
+<tr><td>05日</td><td>话费</td><td class="amount">¥46.00</td><td>括号标注 ¥50</td></tr>
+<tr><td>06日</td><td>话费</td><td class="amount">¥46.00</td><td>括号标注 ¥50</td></tr>
+<tr><td>06日</td><td>腾讯域名续费</td><td class="amount">¥50.00</td><td></td></tr>
+<tr><td>07日</td><td>电费</td><td class="amount">¥10.00</td><td></td></tr>
+<tr><td>08日</td><td>续费 VIP</td><td class="amount">¥32.88</td><td></td></tr>
+<tr><td>12日</td><td>麦早餐双月卡</td><td class="amount">¥15.90</td><td></td></tr>
+<tr><td>13日</td><td>电费</td><td class="amount">¥20.00</td><td></td></tr>
+<tr><td>15日</td><td>1—9月水费、垃圾处理费</td><td class="amount">¥311.00</td><td></td></tr>
+<tr><td>19日</td><td>电费</td><td class="amount">¥19.99</td><td>括号标注 ¥21</td></tr>
+<tr><td>19日</td><td>BitzNet 1年</td><td class="amount">¥257.88</td><td>优惠码 6折</td></tr>
+<tr><td>23日</td><td>良心 Cloud</td><td class="amount">¥16.80</td><td>半年</td></tr>
+<tr><td>24日</td><td>良心 Cloud</td><td class="amount">¥8.90</td><td>季度</td></tr>
+</tbody></table></div></div>
+
+<footer>
+[Copyright © 2014-2026] · 个人缴费记录，仅供个人参考
+</footer>
+</div>
+</body>
+</html>
